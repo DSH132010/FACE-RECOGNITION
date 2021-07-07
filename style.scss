@@ -42,3 +42,23 @@ body{
         border-color: var(--Secondary-Clr);
     }
 }
+
+.nav-link{
+    font-family: 'Aladin', cursive;
+    font-size: 1.4rem;
+}
+
+.bg-1{
+    background: url(./Images/Circles.svg);
+}
+
+h4{
+    font-family: 'Aladin', cursive;
+}
+
+.primary-hr{
+    width: 151px !important;
+    height: 8px !important;
+    background:#ff0088 !important;
+    border-radius: 13px;
+}
