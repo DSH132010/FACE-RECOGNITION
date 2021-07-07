@@ -5,16 +5,33 @@
           box-sizing: border-box;
 }
 
+:root {
+  --Primary-Clr:#ff0088;
+  --White:#fff;
+  --Primary-Clr-Hover:#e00069fd;
+}
+
 body {
   overflow-x: hidden;
 }
 
 .center {
-  display: -ms-grid !important;
-  display: grid !important;
+  display: -ms-grid;
+  display: grid;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
   height: 100vh;
+}
+
+.btn-primary {
+  color: var(--White);
+  background: var(--Primary-Clr);
+  border-color: var(--Primary-Clr);
+}
+
+.btn-primary:hover {
+  background: var(--Primary-Clr-Hover);
+  border-color: var(--Primary-Clr-Hover);
 }
 /*# sourceMappingURL=style.css.map */

@@ -4,13 +4,30 @@
     box-sizing: border-box;
 }
 
+:root{
+    --Primary-Clr:#ff0088;
+    --White:#fff;
+    --Primary-Clr-Hover:#e00069fd;
+}
+
 body{
     overflow-x: hidden;
 }
 
 .center{
-    display: grid !important;
+    display: grid;
     align-items: center;
     height: 100vh;
+}
 
+.btn-primary{
+    color: var(--White);
+    background: var(--Primary-Clr);
+    border-color: var(--Primary-Clr);
+
+    &:hover{
+        background: var(--Primary-Clr-Hover);
+        border-color: var(--Primary-Clr-Hover);
+    }
+    
 }
