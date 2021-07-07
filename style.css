@@ -9,6 +9,7 @@
   --Primary-Clr:#ff0088;
   --White:#fff;
   --Primary-Clr-Hover:#e00069fd;
+  --Secondary-Clr:#7700ffdd;
 }
 
 body {
@@ -33,5 +34,16 @@ body {
 .btn-primary:hover {
   background: var(--Primary-Clr-Hover);
   border-color: var(--Primary-Clr-Hover);
+}
+
+.btn-outline-secondary {
+  color: var(--Secondary-Clr);
+  background: var(--White);
+  border-color: var(--Secondary-Clr);
+}
+
+.btn-outline-secondary:hover {
+  background: var(--Secondary-Clr);
+  border-color: var(--Secondary-Clr);
 }
 /*# sourceMappingURL=style.css.map */
